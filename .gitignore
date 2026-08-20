@@ -5,21 +5,22 @@
 credentials.json
 token.json
 
-# Python / Backend
-backend/venv/
-backend/.venv/
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
 __pycache__/
 *.py[cod]
+*$py.class
 
-# Node.js / Frontend
-frontend/node_modules/
-frontend/.next/
-frontend/out/
+# Streamlit
+.streamlit/secrets.toml
 
-# Temporary / Media
+# Temporary / Media Processing
 downloads/
 temp/
 *.mp4
 *.mov
 *.jpg
 *.png
+*.xlsx
